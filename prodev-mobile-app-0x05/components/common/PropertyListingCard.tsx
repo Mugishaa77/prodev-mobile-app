@@ -3,7 +3,8 @@ import EvilIcons from "@expo/vector-icons/EvilIcons";
 import MaterialIcons from "@expo/vector-icons/MaterialIcons";
 import { PropertyListingProps } from "@/interfaces";
 import FontAwesome from "@expo/vector-icons/FontAwesome";
-import { styles } from "@/styles/_propertyCardStyle";
+// Update the path below if your _propertyCardStyle file is in a different location
+import { styles } from "../../styles/_propertyCardStyle";
 
 const PropertyListingCard: React.FC<PropertyListingProps> = ({
   propertyName,
