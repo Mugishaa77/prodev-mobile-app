@@ -1,3 +1,5 @@
+// Updated HomeLayout File to include bottom tab navigation
+
 import { AntDesign, EvilIcons, Feather, FontAwesome, Ionicons } from "@expo/vector-icons";
 import { Tabs } from "expo-router";
 
